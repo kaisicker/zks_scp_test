@@ -6,6 +6,7 @@ class zks_test_cl definition
   public section.
 
     interfaces if_oo_adt_classrun.
+    
   protected section.
   private section.
 endclass.
@@ -15,6 +16,8 @@ endclass.
 class zks_test_cl implementation.
 
   method if_oo_adt_classrun~main.
+  
     out->write( 'hello' ).
+  
   endmethod.
 endclass.
